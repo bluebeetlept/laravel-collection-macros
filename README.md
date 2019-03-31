@@ -17,7 +17,55 @@ Version | Laravel | PHP Version
 
 ## Available Macros
 
+- [`increment`](#increment)
+- [`decrement`](#decrement)
+- [`ksort`](#ksort)
+- [`krsort`](#krsort)
 - [`recursive`](#recursive)
+
+### `increment`
+
+Increment a value that's inside a Collection
+
+```php
+$collection = collect([
+    'total' => 1,
+]);
+
+$collection->increment('total', 2); // 3
+```
+
+### `decrement`
+
+Decrement a value that's inside a Collection
+
+```php
+$collection = collect([
+    'total' => 3,
+]);
+
+$collection->decrement('total', 2); // 1
+```
+
+### `ksort`
+
+Sorts the Collection by its keys.
+
+```php
+$collection = collect(['d' => 'lemon', 'a' => 'orange', 'b' => 'banana', 'c' => 'apple']);
+
+$collection->ksort(); // ['a' => 'orange', 'b' => 'banana', 'c' => 'apple', 'd' => 'lemon']
+```
+
+### `krsort`
+
+Sorts the Collection by its keys in the reverse order
+
+```php
+$collection = collect(['d' => 'lemon', 'a' => 'orange', 'b' => 'banana', 'c' => 'apple']);
+
+$collection->krsort(); // ['d' => 'lemon', 'c' => 'apple', 'b' => 'banana', 'a' => 'orange']
+```
 
 ### `recursive`
 
