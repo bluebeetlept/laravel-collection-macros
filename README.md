@@ -5,15 +5,15 @@
 [![Latest Version on Packagist][icon-version]][link-packagist]
 [![Total Downloads][icon-downloads]][link-packagist]
 
-The package description goes here.
+Custom Laravel Collection Macros.
 
 This package is compliant with the FIG standards [PSR-1][link-psr-1], [PSR-2][link-psr-2] and [PSR-4][link-psr-4] to ensure a high level of interoperability between shared PHP. If you notice any compliance oversights, please send a patch via pull request.
 
-## Laravel Version Compatibility
+## Version Matrix
 
-Laravel Collection Macros                      | Laravel
----------------------------------------------- | ----------------------------------------
-![1.0.x][icon-laravel-collection-macros_1_0_x] | ![Laravel 5.7][icon-laravel_5_7]
+Version | Laravel | PHP Version
+------- | ------- | ------------
+1.x     | 5.7.x   | >= 7.1.3
 
 ## Available Macros
 
@@ -80,5 +80,3 @@ If you discover any security related issues, please email hello@werxe.com instea
 [icon-license]:   https://img.shields.io/packagist/l/werxe/laravel-collection-macros.svg?style=flat-square&label=License
 [icon-version]:   https://img.shields.io/packagist/v/werxe/laravel-collection-macros.svg?style=flat-square&label=Version
 [icon-downloads]: https://img.shields.io/packagist/dt/werxe/laravel-collection-macros.svg?style=flat-square&label=Downloads
-[icon-laravel_5_7]: https://img.shields.io/badge/5.7-supported-brightgreen.svg?style=flat-square "Laravel 5.7"
-[icon-laravel-collection-macros_1_0_x]: https://img.shields.io/badge/version-1.0.*-blue.svg?style=flat-square&label=Version "Laravel Collection Macros 1.0.*"
