@@ -5,7 +5,7 @@
 [![Latest Version on Packagist][icon-version]][link-packagist]
 [![Total Downloads][icon-downloads]][link-packagist]
 
-Custom Laravel Collection Macros for Laravel 5.7.
+Custom Laravel Collection Macros for Laravel 5.8.
 
 This package is compliant with the FIG standards [PSR-1][link-psr-1], [PSR-2][link-psr-2] and [PSR-4][link-psr-4] to ensure a high level of interoperability between shared PHP. If you notice any compliance oversights, please send a patch via pull request.
 
@@ -13,6 +13,7 @@ This package is compliant with the FIG standards [PSR-1][link-psr-1], [PSR-2][li
 
 Version | Laravel | PHP Version
 ------- | ------- | ------------
+2.x     | 5.8.x   | >= 7.1.3
 1.x     | 5.7.x   | >= 7.1.3
 
 ## Available Macros
