@@ -19,7 +19,7 @@ class DecrementTest extends TestCase
         $this->assertSame(9, $data->decrement('amount', 1)->get('amount'));
         $this->assertSame(9, $data->get('amount'));
 
-        // $this->assertSame(0, $data->decrement('amount', -1)->get('amount'));
-        // $this->assertSame(0, $data->get('amount'));
+        $this->assertSame(10, $data->decrement('amount', -1)->get('amount'));
+        $this->assertSame(10, $data->get('amount'));
     }
 }
