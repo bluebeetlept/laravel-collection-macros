@@ -53,13 +53,13 @@ Please refer to the [Change Log](CHANGELOG.md) for a full history of the project
 
 ## Contributing & Protocols
 
-- [Etiquette](CONTRIBUTING.md#etiquette)
-- [Versioning](CONTRIBUTING.md#versioning)
-- [Coding Standards](CONTRIBUTING.md#coding-standards)
-- [Issues \ Bugs](CONTRIBUTING.md#issues--bugs)
-- [Pull Requests](CONTRIBUTING.md#pull-requests)
-- [Proposals](CONTRIBUTING.md#proposals)
-- [Testing](CONTRIBUTING.md#running-tests)
+- [Etiquette](/.github/CONTRIBUTING.md#etiquette)
+- [Versioning](/.github/CONTRIBUTING.md#versioning)
+- [Coding Standards](/.github/CONTRIBUTING.md#coding-standards)
+- [Issues \ Bugs](/.github/CONTRIBUTING.md#issues--bugs)
+- [Pull Requests](/.github/CONTRIBUTING.md#pull-requests)
+- [Proposals](/.github/CONTRIBUTING.md#proposals)
+- [Testing](/.github/CONTRIBUTING.md#running-tests)
 
 ## Security
 
