@@ -1,0 +1,60 @@
+{
+    "name": "werxe/laravel-collection-macros",
+    "description": "Custom Laravel Collection macros.",
+    "keywords": [
+        "php",
+        "werxe",
+        "laravel",
+        "collection",
+        "macros"
+    ],
+    "homepage": "https://werxe.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Werxe",
+            "email": "hello@werxe.com",
+            "homepage": "https://werxe.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "5.7.*"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "orchestra/testbench": "^3.7",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Werxe\\Laravel\\CollectionMacros\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Werxe\\Laravel\\CollectionMacros\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Werxe\\Laravel\\CollectionMacros\\CollectionMacrosServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "cs:check": "./vendor/bin/php-cs-fixer fix --verbose --ansi --show-progress=estimating --diff --dry-run --config .php_cs.php",
+        "cs:fix": "./vendor/bin/php-cs-fixer fix --verbose --ansi --show-progress=estimating --config .php_cs.php",
+        "test": "./vendor/bin/phpunit --verbose --colors=always"
+    },
+    "minimum-stability": "stable"
+}
