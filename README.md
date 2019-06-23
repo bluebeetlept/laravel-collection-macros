@@ -96,27 +96,20 @@ $convertedCollection = $collection->recursive();
 $contacts = $convertedCollection->get('contacts');
 ```
 
-## Change Log
+## Contributing
 
-Please refer to the [Change Log](CHANGELOG.md) for a full history of the project.
+Thank you for your interest in Laravel Collection Macros. Here are some of the many ways to contribute.
 
-## Contributing & Protocols
-
-- [Etiquette](/.github/CONTRIBUTING.md#etiquette)
-- [Versioning](/.github/CONTRIBUTING.md#versioning)
-- [Coding Standards](/.github/CONTRIBUTING.md#coding-standards)
-- [Issues \ Bugs](/.github/CONTRIBUTING.md#issues--bugs)
-- [Pull Requests](/.github/CONTRIBUTING.md#pull-requests)
-- [Proposals](/.github/CONTRIBUTING.md#proposals)
-- [Testing](/.github/CONTRIBUTING.md#running-tests)
+- Check out our [contributing guide](/.github/CONTRIBUTING.md)
+- Look at our [code of conduct](/.github/CODE_OF_CONDUCT.md)
 
 ## Security
 
-If you discover any security related issues, please email hello@werxe.com instead of using the issue tracker.
+If you discover any security related issues, please email security@werxe.com instead of using the issue tracker.
 
 ## License
 
-`werxe/laravel-collection-macros` is licenced under the MIT License (MIT). Please see the [license file](LICENSE) for more information.
+Laravel Collection Macros is licenced under the MIT License (MIT). Please see the [license file](LICENSE) for more information.
 
 [link-psr-1]:     http://www.php-fig.org/psr/psr-1/
 [link-psr-2]:     http://www.php-fig.org/psr/psr-2/
@@ -125,7 +118,7 @@ If you discover any security related issues, please email hello@werxe.com instea
 [link-license]:   https://opensource.org/licenses/MIT
 [link-packagist]: https://packagist.org/packages/werxe/laravel-collection-macros
 
-[icon-travis]:    https://img.shields.io/travis/werxe/laravel-collection-macros.svg?style=flat-square&label=Travis%20CI
-[icon-license]:   https://img.shields.io/packagist/l/werxe/laravel-collection-macros.svg?style=flat-square&label=License
-[icon-version]:   https://img.shields.io/packagist/v/werxe/laravel-collection-macros.svg?style=flat-square&label=Version
-[icon-downloads]: https://img.shields.io/packagist/dt/werxe/laravel-collection-macros.svg?style=flat-square&label=Downloads
+[icon-travis]:    https://travis-ci.org/werxe/laravel-collection-macros.svg?branch=2.x
+[icon-license]:   https://poser.pugx.org/werxe/laravel-collection-macros/license
+[icon-version]:   https://poser.pugx.org/werxe/laravel-collection-macros/version
+[icon-downloads]: https://poser.pugx.org/werxe/laravel-collection-macros/downloads
