@@ -21,7 +21,7 @@ class CollectionMacrosServiceProvider extends ServiceProvider
             if (! Collection::hasMacro($macro)) {
                 $class = "Werxe\\Laravel\\CollectionMacros\\Macros\\{$macro}";
 
-                Collection::macro($macro, app($class)());
+                Collection::macro(Str::lower($macro), app($class)());
             }
         }
     }
