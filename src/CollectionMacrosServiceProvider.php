@@ -16,12 +16,14 @@ class CollectionMacrosServiceProvider extends ServiceProvider
         $macros = glob(__DIR__.'/Macros/*.php');
 
         foreach ($macros as $macroPath) {
-            $macro = Str::camel(pathinfo($macroPath, PATHINFO_FILENAME));
+            $macroClass = pathinfo($macroPath, PATHINFO_FILENAME);
 
-            if (! Collection::hasMacro($macro)) {
-                $class = "Werxe\\Laravel\\CollectionMacros\\Macros\\{$macro}";
+            $macroName = Str::camel($macroClass);
 
-                Collection::macro($macro, app($class)());
+            if (! Collection::hasMacro($macroName)) {
+                $class = "Werxe\\Laravel\\CollectionMacros\\Macros\\{$macroClass}";
+
+                Collection::macro($macroName, app($class)());
             }
         }
     }
