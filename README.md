@@ -16,7 +16,27 @@ Version | Laravel | PHP Version
 2.x     | 5.8.x   | >= 7.1.3
 1.x     | 5.7.x   | >= 7.1.3
 
-## Available Macros
+## Getting Started
+
+Install the package via [Composer](https://getcomposer.org/) by running:
+
+```
+composer require werxe/laravel-collection-macros
+```
+
+By default all macros are enabled and the macro name is the lower cased version of the macro class.
+
+If you want to customize which macros are enabled or just rename the macro name, you can do so by publishing the configuration file, by running:
+
+```
+php artisan vendor:publish --tag="werxe:collection-macros.config"
+```
+
+The configuration file is now published at `config/werxe/collection-macros/config.php`.
+
+## Documentation
+
+### Available Macros
 
 - [`increment`](#increment)
 - [`decrement`](#decrement)

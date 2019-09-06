@@ -22,9 +22,9 @@
         "illuminate/support": "5.8.*"
     },
     "require-dev": {
-        "werxe/php-cs-fixer-config": "^1.0",
         "orchestra/testbench": "^3.8",
-        "phpunit/phpunit": "^7.5"
+        "phpunit/phpunit": "^7.5",
+        "werxe/php-cs-fixer-config": "^1.0"
     },
     "autoload": {
         "psr-4": {
@@ -43,7 +43,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "2.1.x-dev"
         },
         "laravel": {
             "providers": [

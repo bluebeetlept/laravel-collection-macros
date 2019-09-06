@@ -2,28 +2,42 @@
 
 namespace Werxe\Laravel\CollectionMacros;
 
-use Illuminate\Support\Str;
 use Illuminate\Support\Collection;
 use Illuminate\Support\ServiceProvider;
 
 class CollectionMacrosServiceProvider extends ServiceProvider
 {
     /**
-     * {@inheritdoc}
+     * Bootstrap any package services.
+     *
+     * @return void
+     */
+    public function boot()
+    {
+        if ($this->app->runningInConsole()) {
+            // Publish config
+            $this->publishes([
+                realpath(__DIR__.'/../config/collection-macros.php') => config_path('werxe/collection-macros/config.php'),
+            ], 'werxe:collection-macros.config');
+        }
+    }
+
+    /**
+     * Register any package services.
+     *
+     * @return void
      */
     public function register()
     {
-        $macros = glob(__DIR__.'/Macros/*.php');
+        $this->mergeConfigFrom(
+            realpath(__DIR__.'/../config/collection-macros.php'), 'werxe.collection-macros.config'
+        );
 
-        foreach ($macros as $macroPath) {
-            $macroClass = pathinfo($macroPath, PATHINFO_FILENAME);
+        $macros = $this->app['config']->get('werxe.collection-macros.config');
 
-            $macroName = Str::camel($macroClass);
-
-            if (! Collection::hasMacro($macroName)) {
-                $class = "Werxe\\Laravel\\CollectionMacros\\Macros\\{$macroClass}";
-
-                Collection::macro($macroName, app($class)());
+        foreach ($macros as $macro => $class) {
+            if (! Collection::hasMacro($macro)) {
+                Collection::macro($macro, app($class)());
             }
         }
     }

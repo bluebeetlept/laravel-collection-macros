@@ -2,21 +2,18 @@
 
 namespace Werxe\Laravel\CollectionMacros\Tests;
 
-use ReflectionClass;
-use PHPUnit\Framework\TestCase as BaseTestCase;
+use Orchestra\Testbench\TestCase as OrchestraTestCase;
 use Werxe\Laravel\CollectionMacros\CollectionMacrosServiceProvider;
 
-abstract class TestCase extends BaseTestCase
+abstract class TestCase extends OrchestraTestCase
 {
     /**
-     * This method is called before each test.
-     *
-     * @return void
+     * {@inheritdoc}
      */
-    protected function setUp(): void
+    protected function getPackageProviders($app)
     {
-        $provider = new ReflectionClass(CollectionMacrosServiceProvider::class);
-
-        $provider->newInstanceWithoutConstructor()->register();
+        return [
+            CollectionMacrosServiceProvider::class,
+        ];
     }
 }
