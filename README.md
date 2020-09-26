@@ -1,6 +1,6 @@
 ## Laravel Collection Macros
 
-[![Build Status][icon-travis]][link-travis]
+[![Build Status][icon-github-workflow]][link-github-workflow]
 [![Software License][icon-license]][link-license]
 [![Latest Version on Packagist][icon-version]][link-packagist]
 [![Total Downloads][icon-downloads]][link-packagist]
@@ -133,14 +133,14 @@ If you discover any security related issues, please email security@werxe.com ins
 
 Laravel Collection Macros is licenced under the MIT License (MIT). Please see the [license file](LICENSE) for more information.
 
-[link-psr-1]:     http://www.php-fig.org/psr/psr-1/
-[link-psr-2]:     http://www.php-fig.org/psr/psr-2/
-[link-psr-4]:     http://www.php-fig.org/psr/psr-4/
-[link-travis]:    https://travis-ci.org/werxe/laravel-collection-macros
-[link-license]:   https://opensource.org/licenses/MIT
-[link-packagist]: https://packagist.org/packages/werxe/laravel-collection-macros
+[link-psr-1]:           http://www.php-fig.org/psr/psr-1/
+[link-psr-2]:           http://www.php-fig.org/psr/psr-2/
+[link-psr-4]:           http://www.php-fig.org/psr/psr-4/
+[link-github-workflow]: https://github.com/werxe/laravel-collection-macros/actions?query=workflow%3ATests
+[link-license]:         https://opensource.org/licenses/MIT
+[link-packagist]:       https://packagist.org/packages/werxe/laravel-collection-macros
 
-[icon-travis]:    https://travis-ci.org/werxe/laravel-collection-macros.svg?branch=4.x
-[icon-license]:   https://poser.pugx.org/werxe/laravel-collection-macros/license
-[icon-version]:   https://poser.pugx.org/werxe/laravel-collection-macros/version
-[icon-downloads]: https://poser.pugx.org/werxe/laravel-collection-macros/downloads
+[icon-github-workflow]: https://github.com/werxe/laravel-collection-macros/workflows/Tests/badge.svg?branch=4.x
+[icon-license]:         https://poser.pugx.org/werxe/laravel-collection-macros/license
+[icon-version]:         https://poser.pugx.org/werxe/laravel-collection-macros/version
+[icon-downloads]:       https://poser.pugx.org/werxe/laravel-collection-macros/downloads
