@@ -18,7 +18,7 @@ $finder = PhpCsFixer\Finder::create()
     })
 ;
 
-return Werxe\PhpCsFixer\Config::create()
+return (new Werxe\PhpCsFixer\Config())
     ->setFinder($finder)
     ->setUsingCache(false)
     ->setRiskyAllowed(true)
