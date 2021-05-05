@@ -13,6 +13,7 @@ This package is compliant with the FIG standards [PSR-1][link-psr-1], [PSR-2][li
 
 Version | Laravel | PHP Version
 ------- | ------- | ------------
+6.x     | 8.x     | >= 8.0
 5.x     | 8.x     | >= 7.3
 4.x     | 7.x     | >= 7.2.5
 3.x     | 6.x     | >= 7.2
@@ -141,7 +142,7 @@ Laravel Collection Macros is licenced under the MIT License (MIT). Please see th
 [link-license]:         https://opensource.org/licenses/MIT
 [link-packagist]:       https://packagist.org/packages/werxe/laravel-collection-macros
 
-[icon-github-workflow]: https://github.com/werxe/laravel-collection-macros/workflows/Tests/badge.svg?branch=5.x
+[icon-github-workflow]: https://github.com/werxe/laravel-collection-macros/workflows/Tests/badge.svg?branch=6.x
 [icon-license]:         https://poser.pugx.org/werxe/laravel-collection-macros/license
 [icon-version]:         https://poser.pugx.org/werxe/laravel-collection-macros/version
 [icon-downloads]:       https://poser.pugx.org/werxe/laravel-collection-macros/downloads

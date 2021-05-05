@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [v6.0.0] - TBA
+
+- BC Break: PHP 8.0 is the minimum required PHP version
+
 ## [v5.0.1] - 2021-04-13
 
 ### Added
