@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Werxe\Laravel\CollectionMacros\Tests\Macros;
 
 use Illuminate\Support\Collection;
@@ -7,7 +9,9 @@ use Werxe\Laravel\CollectionMacros\Tests\TestCase;
 
 class RecursiveTest extends TestCase
 {
-    /** @test */
+    /**
+     * @test
+     */
     public function it_can_recursively_treat_nested_arrays_as_collections()
     {
         $data = (new Collection([

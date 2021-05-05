@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types = 1);
+
 namespace Werxe\Laravel\CollectionMacros;
 
 use Illuminate\Support\Collection;
