@@ -5,7 +5,7 @@
 [![Latest Version on Packagist][icon-version]][link-packagist]
 [![Total Downloads][icon-downloads]][link-packagist]
 
-Custom Laravel Collection Macros for Laravel 8.
+Custom Laravel Collection Macros for Laravel 9.
 
 This package is compliant with the FIG standards [PSR-1][link-psr-1], [PSR-2][link-psr-2] and [PSR-4][link-psr-4] to ensure a high level of interoperability between shared PHP. If you notice any compliance oversights, please send a patch via pull request.
 
@@ -13,6 +13,7 @@ This package is compliant with the FIG standards [PSR-1][link-psr-1], [PSR-2][li
 
 Version | Laravel | PHP Version
 ------- | ------- | ------------
+7.x     | 9.x     | >= 8.0
 6.x     | 8.x     | >= 8.0
 5.x     | 8.x     | >= 7.3
 4.x     | 7.x     | >= 7.2.5
@@ -142,7 +143,7 @@ Laravel Collection Macros is licenced under the MIT License (MIT). Please see th
 [link-license]:         https://opensource.org/licenses/MIT
 [link-packagist]:       https://packagist.org/packages/werxe/laravel-collection-macros
 
-[icon-github-workflow]: https://github.com/werxe/laravel-collection-macros/workflows/Tests/badge.svg?branch=6.x
+[icon-github-workflow]: https://github.com/werxe/laravel-collection-macros/workflows/Tests/badge.svg?branch=7.x
 [icon-license]:         https://poser.pugx.org/werxe/laravel-collection-macros/license
 [icon-version]:         https://poser.pugx.org/werxe/laravel-collection-macros/version
 [icon-downloads]:       https://poser.pugx.org/werxe/laravel-collection-macros/downloads
