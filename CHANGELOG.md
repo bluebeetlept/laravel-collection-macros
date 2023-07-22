@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [v8.0.0] - TBA
+
+- BC Break: Laravel 10.0 is the minimum supported Laravel version
+
 ## [v7.0.0] - 2022-06-13
 
 - BC Break: Laravel 9.0 is the minimum supported Laravel version
